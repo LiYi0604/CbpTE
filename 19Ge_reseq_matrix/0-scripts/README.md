@@ -9,7 +9,7 @@ This pipeline is the downstream step after PanGenie genotyping.
 
 4. `2-coor_switch.e.py` <br> Aligns PanGenie output to the PanTE matrix by reference site.
 
-5. `3-map.*.py` <br> Constructs population-level PanTE matrices.
+5. `3-map.*.py` <br> Maps population-level PanTE matrix sites to the global PanTE matrix to support subsequent alignment of genotyping results.
 
 6. `4-pop2matrix.reseq.ver2.py` <br> Aligns PanGenie output to the population-level PanTE matrix to produce resequencing-based genotypes. <br>
    To maximize genotyping accuracy, based on phylogenetic relationships, each locus in a target genome is inferred from the genotype state of the reference genome of the most closely related population in the PanTE matrix.
