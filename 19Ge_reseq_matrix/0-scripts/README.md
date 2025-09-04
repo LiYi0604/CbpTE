@@ -1,4 +1,6 @@
 # A pipeline for ResequenceTE Matrix Construction
+This pipeline is the downstream step after PanGenie genotyping.
+
 1. `0-script_to_construct_reseq_matrix.sh` <br> The pipeline for ReseqTE matrix construction.
  
 2. `0-pbs.matrix.sh` <br> Script for submitting jobs to PBS.
