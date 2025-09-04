@@ -23,7 +23,7 @@ This pipeline is the downstream step after PanGenie genotyping.
 10. `8-reseq_all_sample_count.ipynb` & `8-reseq_mat_site_freq.ipynb` <br> Check individual missing rates for each species and and generates histograms of TE counts per species.
 
 11. `9-reseq_*.py` <br> Classifies TE sites in the ReseqTE matrix using phylogenetic relationships. <br>
-    Which defined TE sites into three types:
-    (1) shared in all species
-    (2) shared only between tetraploid subgenome and diploid ancestor genome
-    (3) Unique to each genomes
+    Which defined TE sites into three types:<br>
+    (1) shared in all species; <br>
+    (2) shared only between tetraploid subgenome and diploid ancestor genome; <br>
+    (3) Unique to each genomes.
