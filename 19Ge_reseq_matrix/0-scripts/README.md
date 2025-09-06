@@ -5,7 +5,7 @@ This pipeline is the downstream step after PanGenie genotyping.
  
 2. `0-pbs.matrix.sh` <br> Script for submitting jobs to PBS.
  
-3. `2-pbs.corr_switch.sh` <br> Script for running jobs on PBS.
+3. `2-pbs.coor_switch.sh` <br> Script for running jobs on PBS.
 
 4. `2-coor_switch.e.py` <br> Aligns PanGenie output to the PanTE matrix by reference site.
 
@@ -20,7 +20,7 @@ This pipeline is the downstream step after PanGenie genotyping.
 
 9. `7-reseq_mat_to_vcf.py` & `7-reseq_vcf_filter` <br> Converts the matrix to a VCF and filters sites with >10% missing rate.
 
-10. `8-reseq_all_sample_count.ipynb` & `8-reseq_mat_site_freq.ipynb` <br> Check individual missing rates for each species and and generates histograms of TE counts per species.
+10. `8-reseq_all_sample_count.ipynb` & `8-reseq_mat_site_freq.ipynb` <br> Check individual missing rates for each species and generates histograms of TE counts per species.
 
 11. `9-reseq_*.py` <br> Classifies TE sites in the ReseqTE matrix using phylogenetic relationships. <br>
     Which defined TE sites into three types:<br>
